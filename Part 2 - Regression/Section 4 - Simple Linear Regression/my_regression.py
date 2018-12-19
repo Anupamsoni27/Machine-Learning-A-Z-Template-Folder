@@ -32,7 +32,7 @@ plt.plot(x_train,regressor.predict(x_train),color="green")
 plt.title("Salary vs Experience (Training set")
 plt.xlabel("Experence")
 plt.ylabel("Salary")
-plt.show()
+plt.show() 
 
 #Predicting the Test set results
 plt.scatter(x_test,y_test,color="red")
